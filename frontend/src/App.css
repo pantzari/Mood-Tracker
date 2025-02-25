@@ -1,0 +1,134 @@
+body {
+  background-color: pink;
+}
+
+.moodtrackerTitle {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  color: rgb(255, 101, 204);
+  display: flex;
+  justify-content: center; /* Center the text horizontally */
+  align-items: center; /* Center the text vertically */
+  height: 50vh;
+  width: 100vw; /* Take up the full width of the viewport */
+  white-space: nowrap; /* Prevent text from wrapping */
+  text-align: center; /* Center the text */
+  margin-top: -10vh;
+  letter-spacing: -2px;
+  word-spacing: -15px;
+}
+.HomeTitle{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px; /* Smaller font size */
+  color: rgb(255, 101, 204);
+  display: flex;
+  justify-content: center; /* Center the text horizontally */
+  align-items: center; /* Center the text vertically */
+  height: 10vh; /* Adjust the height */
+  width: 100vw; /* Take up the full width of the viewport */
+  white-space: nowrap; /* Prevent text from wrapping */
+  text-align: center; /* Center the text */
+  margin-top: 10; /* Adjust the margin to reduce space */
+  letter-spacing: -3px;
+  word-spacing: -8px;
+  text-shadow: 
+  -1px -1px 0 #991867,  
+  1px -1px 0 #991867,
+  -1px 1px 0 #991867,
+  1px 1px 0 #991867; /* Add stroke effect */
+}
+
+.QuestionHome{
+  color: rgb(236, 86, 189);
+  display: flex;
+  justify-content: center; /* Center the text horizontally */
+  align-items: center; /* Center the text vertically */
+  height: 10vh; /* Adjust the height */
+  width: 100vw; /* Take up the full width of the viewport */
+  white-space: nowrap; /* Prevent text from wrapping */
+  text-align: center; /* Center the text */
+  margin-top: 10; 
+  letter-spacing: 1px;/* Adjust the margin to reduce space */
+  text-shadow: 
+  -1px -1px 0 #781c54,  
+  1px -1px 0 #781c54,
+  -1px 1px 0 #781c54,
+  1px 1px 0 #781c54; /* Add stroke effect */
+}
+
+.starVector {
+  position: fixed;
+  justify-content: center;
+  left: 40px;
+  top: 60px;
+}
+
+.starVector2 {
+  position: fixed;
+  justify-content: center;
+  left: 340px;
+  top: 300px;
+}
+
+#loadingContainer {
+  width: 30%;
+  background-color: #ffffff; /* Light grey background for the container */
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+  position: absolute;
+  top: 52%;
+  left: 34%;
+}
+
+#loadingBar {
+  width: 0%;
+  height: 100%;
+  background-color: rgb(255, 244, 149); /* Set the color to pink */
+  border-radius: 10px;
+  transition: width 0.1s ease-in-out;
+}
+
+/* MOOD    BUTTONS     */
+
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Space between buttons */
+  margin-top: 20px;
+  width: 430px; /* Adjust the width to fit two buttons per row */
+  
+}
+
+.buttonContainer button {
+  width: 150px;
+  height: 140px;
+  font-size: 20px;
+  background-color: #fff3ba;
+  border: 4px solid #f0b475; /* Add a border to the buttons */
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Remove default padding */
+  box-shadow: 0 9px 5px rgba(186, 62, 155, 0.3); /* Increase shadow on hover */
+
+}
+
+.buttonContainer button img {
+  width: 50%; /* Adjust the width to make the image bigger */
+  height: 50%; /* Adjust the height to make the image bigger */
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px; /* Match the button's border radius */
+}
+
+.buttonContainer button:hover {
+  background-color: #ffe97b;
+  
+}
