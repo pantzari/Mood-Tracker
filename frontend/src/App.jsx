@@ -6,7 +6,8 @@ import './App.css';
 
 function App() {
   const navigate = useNavigate();
-
+              //localStorage.clear();   for cleaning history cache
+             //sessionStorage.clear();
   const handleLoadingComplete = () => {
     navigate('/home');
   };
